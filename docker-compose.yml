@@ -1,0 +1,13 @@
+
+
+services:
+  postgres:
+    container_name: api-service-pg
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: dockerun
+      POSTGRES_PASSWORD: docker
+      POSTGRES_DB: api-service
+      PGDATA: /data/postgres

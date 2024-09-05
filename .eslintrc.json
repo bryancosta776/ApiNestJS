@@ -1,0 +1,6 @@
+{
+    "rules": {
+       "endOfLine": "off",
+       "no-useless-constructor": "off"
+    }
+}
